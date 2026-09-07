@@ -1,0 +1,5 @@
+actual/predicted,normal,bias,stuck,noise
+normal,20,0,0,0
+bias,0,20,0,0
+stuck,5,6,9,0
+noise,0,0,0,20

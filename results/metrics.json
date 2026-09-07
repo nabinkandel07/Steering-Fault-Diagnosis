@@ -1,0 +1,11 @@
+{
+  "test_samples": 80,
+  "accuracy": 0.8625,
+  "recall_by_class": {
+    "normal": 1.0,
+    "bias": 1.0,
+    "stuck": 0.45,
+    "noise": 1.0
+  },
+  "data": "deterministic synthetic steering-angle signals"
+}
