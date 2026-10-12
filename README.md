@@ -23,7 +23,9 @@ Python 3.10 or newer is recommended. No third-party packages are required.
 
 The weaker stuck-fault recall exposes the limit of this small feature set. All signals are synthetic, so these numbers are a reproducible pipeline check rather than evidence of performance on a vehicle.
 
-Generated artifacts are committed under `results/`: `metrics.json` and `confusion_matrix.csv`.
+Generated artifacts are committed under `results/`: `metrics.json`, `confusion_matrix.csv`, `classification_report.csv`, and `confusion_matrix.svg`.
+
+For academic review, see the detailed [methodology](docs/METHODOLOGY.md), [result interpretation](docs/RESULTS.md), and [data dictionary](docs/DATA_DICTIONARY.md). Verify the feature pipeline with `python -m unittest discover -s tests -v`.
 
 ## Method
 
